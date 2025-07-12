@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Blur & Sharpen using Convolution</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <h1>🖼️ Convolution Filter: Blur & Sharpen</h1>
+
+  <input type="file" id="upload" accept="image/*">
+  <br>
+  <canvas id="canvas" width="400" height="400"></canvas>
+  <br>
+
+  <button onclick="applyFilter('blur')">Apply Blur</button>
+  <button onclick="applyFilter('sharpen')">Apply Sharpen</button>
+  <button onclick="reset()">Reset</button>
+
+</body>
+</html>

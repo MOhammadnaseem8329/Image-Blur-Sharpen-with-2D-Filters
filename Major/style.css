@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f5;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #333;
+}
+
+canvas {
+  border: 2px solid #444;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+button, input[type="file"] {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
